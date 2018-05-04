@@ -13,7 +13,7 @@ int main()
 
     while (cin >> s) {
         //cout << s << endl;
-        for (int i = 0; i < s.length(); i++) {
+        for (unsigned int i = 0; i < s.length(); i++) {
             //cout << s[i] << endl;
             if (isalpha(s[i])) {
                 s[i] = tolower(s[i]);

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0502-Min.cpp">
+    <ClCompile Include="0401-CombinationNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="struct.cpp">
+    <ClCompile Include="0505-StructOverride.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

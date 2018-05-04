@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CD2E32FD-007C-4FB9-8B81-E165D7DF4CF0}</ProjectGuid>
+    <ProjectGuid>{7AC8072F-95F5-440C-B6D3-3D6FF1A57781}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My08TheBlocksProblem</RootNamespace>
+    <RootNamespace>My10Ananagrams</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,10 +142,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0508-TheBlocksProblem.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input_output_sample.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

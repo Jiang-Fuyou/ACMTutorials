@@ -8,7 +8,7 @@ const int maxn = 30;
 int n;
 vector<int> pile[maxn];
 
-void find_block(const int block, int &p, int &h)
+void find_block(const int block, int &p, unsigned int &h)
 {
     /*
     for (int i = 0; i < n; i++) {
@@ -31,7 +31,7 @@ void find_block(const int block, int &p, int &h)
 
 void clear_above(const int p, const int h)
 {
-    for (int i = h + 1; i < pile[p].size(); i++) {
+    for (unsigned int i = h + 1; i < pile[p].size(); i++) {
         int b = pile[p][i];
         pile[b].push_back(b);
     }
@@ -40,7 +40,7 @@ void clear_above(const int p, const int h)
 
 void pile_onto(int p, int h, int p2)
 {
-    for (int i = h; i < pile[p].size(); i++) {
+    for (unsigned int i = h; i < pile[p].size(); i++) {
         pile[p2].push_back(pile[p][i]);
     }
     pile[p].resize(h);
@@ -50,7 +50,7 @@ void print()
 {
     for (int i = 0; i < n; i++) {
         printf("%d:", i);
-        for (int j = 0; j < pile[i].size(); j++) {
+        for (unsigned int j = 0; j < pile[i].size(); j++) {
             printf(" %d", pile[i][j]);
         }
         printf("\n");
@@ -71,7 +71,8 @@ int main()
         if (s1 == "quit") break;
         cin >> a >> s2 >> b;
 
-        int pa, pb, ha, hb;
+        int pa, pb;
+        unsigned int ha, hb;
 
         find_block(a, pa, ha);
         find_block(b, pb, hb);

@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CD2E32FD-007C-4FB9-8B81-E165D7DF4CF0}</ProjectGuid>
+    <ProjectGuid>{AE3717FC-E385-42AC-B073-9E9FB6616BD0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My08TheBlocksProblem</RootNamespace>
+    <RootNamespace>My01Division</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,10 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0508-TheBlocksProblem.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input_output_sample.txt" />
+    <ClCompile Include="0701-Division.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

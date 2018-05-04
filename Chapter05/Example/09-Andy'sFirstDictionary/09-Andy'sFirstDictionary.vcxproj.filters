@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\09-Andy%27sFirstDictionary\dict.cpp">
+    <ClCompile Include="0509-AndysFirstDictionary.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
