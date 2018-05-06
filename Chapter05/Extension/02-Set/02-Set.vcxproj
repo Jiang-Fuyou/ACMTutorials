@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7AC8072F-95F5-440C-B6D3-3D6FF1A57781}</ProjectGuid>
+    <ProjectGuid>{61FE62A7-4E25-4EAA-8AB5-361ECA4230C7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My10Ananagrams</RootNamespace>
+    <RootNamespace>My02Set</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="0502E-Set.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

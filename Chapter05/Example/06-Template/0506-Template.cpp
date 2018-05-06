@@ -31,19 +31,19 @@ ostream &operator << (ostream &out, const Point<T> &p)
 template<typename T>
 T sum(T *begin, T *end)
 {
-	T ans = 0;
+    T ans = 0;
 
-	for (T *p = begin; p != end; p++) {
-		ans += *p;
-	}
+    for (T *p = begin; p != end; p++) {
+        ans += *p;
+    }
 
-	return ans;
+    return ans;
 }
 
 int main()
 {   
-	int    a[] = { 1, 2, 3, 4, 5 };
-	double b[] = { 1.1, 2.2, 3.3, 4.4, 5.5 };
+    int    a[] = { 1, 2, 3, 4, 5 };
+    double b[] = { 1.1, 2.2, 3.3, 4.4, 5.5 };
     Point<int> c[] = { Point<int>(1, 1), 
                        Point<int>(2, 2), 
                        Point<int>(3, 3), 
@@ -57,8 +57,8 @@ int main()
 
 
     // +5, not +4
-	int    sum_a = sum<int>(a, a + 5);
-	double sum_b = sum<double>(b, b + 5);
+    int    sum_a = sum<int>(a, a + 5);
+    double sum_b = sum<double>(b, b + 5);
     Point<int> sum_c = sum<Point<int>>(c, c + 5);
     Point<double> sum_d = sum<Point<double>>(d, d + 5);
 
@@ -66,10 +66,10 @@ int main()
         //cout << c[i] << endl;
     }
 
-	cout << "sum of array a is: " << sum_a << endl;
-	cout << "sum of array b is: " << sum_b << endl;
+    cout << "sum of array a is: " << sum_a << endl;
+    cout << "sum of array b is: " << sum_b << endl;
     cout << "sum of array c is: " << sum_c << endl;
     cout << "sum of array d is: " << sum_d << endl;
 
-	return 0;
+    return 0;
 }
