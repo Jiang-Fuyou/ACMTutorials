@@ -10,6 +10,7 @@ const int coeff[3] = { 2, 3, 5 };
 
 int main()
 {
+    //greater 是从小到大排序，less是从大到小排序
     priority_queue<LL, vector<LL>, greater<LL> > pq;
     set<LL> s;
     pq.push(1);
@@ -26,8 +27,8 @@ int main()
         }
         for (int j = 0; j < 3; j++) {
             LL x2 = x * coeff[j];
-            if (!s.count(x2)) {
-                s.insert(x2);
+            if (!s.count(x2)) { //利用set将重复数字筛选出去
+                s.insert(x2); 
                 pq.push(x2);
                 cout << "i: " << i << ", x2: " << x2 << endl;
             }
